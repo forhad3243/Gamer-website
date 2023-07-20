@@ -1,0 +1,257 @@
+/* shared CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav section started */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 200px 20px 200px;
+}
+
+nav li h3 {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.frame {
+    height: 25px;
+}
+
+.logo-tittle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.logo-G {
+    color: #FF42A5;
+    background-clip: text;
+}
+
+.nav-item li a {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.nav-item ul button {
+    align-items: center;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    cursor: pointer;
+}
+
+.btn li {
+    list-style: none;
+}
+
+/* banner section started */
+.banner-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0px 200px;
+}
+
+.play {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.goat {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-section li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.font-awesome {
+    width: 24px;
+    height: 24px;
+}
+
+.banner-content li {
+    color: #534C64;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+.cta {
+    padding: 9px 31px;
+    border-radius: 8px;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.bta {
+    padding: 9px 31px;
+    border-radius: 8px;
+    background: #4EC5F7;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.banner-img {
+    width: 100vh;
+    margin-left: 100px;
+}
+
+/* contenet section */
+.content {
+    margin: 0px 150px;
+}
+
+.section-caption {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.card-img {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card img {
+    width: auto;
+    height: 300px;
+}
+
+/* play-instantly section */
+.play-instantly {
+    margin: 100px 240px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.play-instantly-img img {
+
+    width: 430px;
+    margin-left: 90px;
+}
+
+.smal-img img {
+    border-radius: 8px;
+    position: relative;
+    bottom: 150px;
+    right: 100px;
+    width: 200px;
+}
+
+.play-instantly-text {
+    text-align: right;
+}
+
+.play-instantly-text p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.play-instantly-text h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.color-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instantly-text{
+  margin-bottom: 221px;
+}
